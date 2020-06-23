@@ -52,6 +52,9 @@ Este projeto visa a criação de um template que possa ser utilizado no momento 
 ### Telas
 
 ![Alt text](screen1.jpg?raw=true "Title")
+![Alt text](screen2.jpg?raw=true "Title")
+![Alt text](screen3.jpg?raw=true "Title")
+![Alt text](screen4.jpg?raw=true "Title")
 
 ### Feito Com
 
