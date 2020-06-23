@@ -20,7 +20,7 @@
     <img src="https://s3-sa-east-1.amazonaws.com/rocketseat-cdn/rocketseat_logo_roxa.png" alt="Logo">
   </a>
 
-  <h3 align="center">Template Rocketseat Basic</h3>
+  <h3 align="center">Agenda Telefônica - Feita com Template Rocketseat Basic</h3>
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -45,7 +45,16 @@
 
 ## Sobre o Projeto
 
-Este projeto visa a criação de um template que possa ser utilizado no momento de criação de projetos utilizando React Native, visto que o processo de instalação e configuração das libs no início de um projeto podem gerar certa complexidade e muitas vezes até erros que atrasam o processo, atrapalhando assim o fluxo de desenvolvimento.
+Este projeto de uma Agenda Telefônica é baseado no vídeo em https://youtu.be/y5Hv7pMA1uo e no código disponibilizado em https://github.com/Rocketseat/youtube-react-native-realmdb. Dito isso, houve várias adaptações necessárias partindo do aplicativo inicial, uma busca de dados de repositórios através da API do Github até um aplicativo de agenda telefônica. Foi um excelente primeiro projeto para aprofundar em React-Native!
+
+Este projeto visa a criação de um template que possa ser utilizado no momento de criação de projetos utilizando React Native, visto que o processo de instalação e configuração das libs no início de um projeto podem gerar certa complexidade e muitas vezes até erros que atrasam o processo, atrapalhando assim o fluxo de desenvolvimento. Funciona em iOS e Android!
+
+### Telas
+
+![Alt text](screen1.jpg?raw=true "Title")
+![Alt text](screen2.jpg?raw=true "Title")
+![Alt text](screen3.jpg?raw=true "Title")
+![Alt text](screen4.jpg?raw=true "Title")
 
 ### Feito Com
 
