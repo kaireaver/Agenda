@@ -49,7 +49,7 @@ Este projeto de uma Agenda Telefônica é baseado no vídeo em https://youtu.be/
 
 Este projeto visa a criação de um template que possa ser utilizado no momento de criação de projetos utilizando React Native, visto que o processo de instalação e configuração das libs no início de um projeto podem gerar certa complexidade e muitas vezes até erros que atrasam o processo, atrapalhando assim o fluxo de desenvolvimento. Funciona em iOS e Android!
 
-PS: v1.1 mais recente possui o campo Apelido!
+PS: v1.1 mais recente possui o campo Apelido a pedido de Adamastor!
 
 ### Telas
 
