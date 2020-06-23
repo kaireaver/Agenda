@@ -8,6 +8,7 @@ export default class ContactSchema {
       lastname: 'string',
       position: 'string',
       company: 'string',
+      nicknames: 'string',
       personalnumber: 'string',
       worknumber: 'string',
       personalemail: 'string',

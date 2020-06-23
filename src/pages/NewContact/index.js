@@ -16,6 +16,7 @@ export default function NewContact(props) {
   const [inputLast, setInputLast] = useState('');
   const [inputPosition, setInputPosition] = useState('');
   const [inputCompany, setInputCompany] = useState('');
+  const [inputNicknames, setInputNicknames] = useState('');
   const [inputNumP, setInputNumpP] = useState('');
   const [inputNumC, setInputNumC] = useState('');
   const [inputBirthday, setInputBirthday] = useState('');
@@ -53,6 +54,7 @@ export default function NewContact(props) {
       lastname: inputLast,
       position: inputPosition,
       company: inputCompany,
+      nicknames: inputNicknames,
       personalnumber: inputNumP,
       worknumber: inputNumC,
       personalemail: inputEmailP,
@@ -107,6 +109,15 @@ export default function NewContact(props) {
           autoCapitalize="none"
           autoCorrect={false}
           placeholder="Empresa"
+        />
+      </Form>
+      <Form>
+        <Input
+          value={inputNicknames}
+          onChangeText={setInputNicknames}
+          autoCapitalize="none"
+          autoCorrect={false}
+          placeholder="Apelido"
         />
       </Form>
       <Form>

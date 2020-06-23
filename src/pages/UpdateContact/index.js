@@ -22,6 +22,7 @@ export default function UpdateContact(props) {
   let [inputLast, setInputLast] = useState(contacts.lastname);
   let [inputPosition, setInputPosition] = useState(contacts.position);
   let [inputCompany, setInputCompany] = useState(contacts.company);
+  let [inputNicknames, setInputNicknames] = useState(contacts.nickname);
   let [inputNumP, setInputNumpP] = useState(contacts.personalnumber);
   let [inputNumC, setInputNumC] = useState(contacts.worknumber);
   let [inputEmailP, setInputEmailP] = useState(contacts.personalemail);
@@ -37,6 +38,7 @@ export default function UpdateContact(props) {
   let placeholderLastname = contacts.lastname;
   let placeholderPosition = contacts.position;
   let placeholderCompany = contacts.company;
+  let placeholderNicknames = contacts.nicknames;
   let placeholderNumP = contacts.personalnumber;
   let placeholderNumC = contacts.worknumber;
   let placeholderEmailP = contacts.personalemail;
@@ -83,6 +85,7 @@ export default function UpdateContact(props) {
       lastname: inputLast,
       position: inputPosition,
       company: inputCompany,
+      nicknames: inputNicknames,
       personalnumber: inputNumP,
       worknumber: inputNumC,
       personalemail: inputEmailP,
@@ -162,6 +165,17 @@ export default function UpdateContact(props) {
           {...(placeholderCompany == ''
             ? {placeholder: 'Empresa'}
             : {defaultValue: placeholderCompany})}
+        />
+      </Form>
+      <Form>
+        <Input
+          value={inputNicknames}
+          onChangeText={setInputNicknames}
+          autoCapitalize="none"
+          autoCorrect={false}
+          {...(placeholderNicknames == ''
+            ? {placeholder: 'Apelido'}
+            : {defaultValue: placeholderNicknames})}
         />
       </Form>
       <Form>
